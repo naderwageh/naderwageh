@@ -1,0 +1,59 @@
+body{
+    background: rgb(10, 0, 53);
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#model{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+#model-contect{
+    background: white;
+    width: 90%;
+    text-align: center;
+    color: green;
+
+}
+#long{
+    background-color: rgb(51, 0, 170);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+    width: 50%;
+    
+}
+label{
+    margin-top: 10px;
+}
+input,select{
+    width: 100%;
+    height: 30px;
+    border: none;
+}
+#supmit-long-bot{
+margin-top: 20px;
+border: none;
+font-size: 20px;
+padding: 10px;
+border-radius: 5px;
+background: rgb(211, 0, 127);
+color: black;
+}
+hr{
+    width: 100%;
+}
+.disabl{
+    background-color: gray !important ;
+}
